@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificación según la nota</title>
+</head>
+<body>
+    <script>
+
+        let nota = prompt('Ingresa tu nota');
+        nota = Number(nota);
+        
+        if (nota >0 && nota <=3 ) {
+            alert('Muy deficiente')
+        } else if (nota >3 && nota <=5) {
+            alert('Insuficiente')
+        } else if (nota >5 && nota <=6) {
+            alert('Suficiente')
+        } else if (nota >6 && nota <=7) {
+            alert('Bien')
+        } else if (nota >7 && nota <=9) {
+            alert('Notable')
+        } else if (nota >9 && nota <=10) {
+            alert('Sobresaliente')
+        } 
+
+    </script>
+</body>
+</html>
